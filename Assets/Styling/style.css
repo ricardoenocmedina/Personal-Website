@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins','Times New Roman', Times, serif;
 }
 
 /*-----Navigation Bar-----*/
@@ -17,13 +18,19 @@
     display: block;
     text-align: center;
 }
-
+.navbar li{
+    float: left;
+}
 .navbar a:hover{
     background-color:black;
 }
 
-.navbar li{
-    float: left;
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 /*-----Main-----*/
