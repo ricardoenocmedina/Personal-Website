@@ -1,7 +1,12 @@
 /*-----Header-----*/
+
 .header{
+    float: center;
+}
+
+.navigation{
     float: right;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 /*-----Main-----*/
