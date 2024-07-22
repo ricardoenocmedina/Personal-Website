@@ -1,8 +1,13 @@
 /*-----Header-----*/
 .header{
     float: right;
+    /* background-color: aqua; */
 }
 
+/*-----Main-----*/
+.main{
+    background-color: rgb(136, 255, 0);
+}
 /*-----Footer-----*/
 .footer {
     width: 100%;
