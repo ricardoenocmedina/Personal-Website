@@ -1,22 +1,39 @@
-/*-----Header-----*/
-
-.header{
-    float: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.navigation{
-    float: right;
-    background-color: aqua;
+/*-----Navigation Bar-----*/
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    overflow: hidden;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:black;
+}
+
+.navbar li{
+    float: left;
 }
 
 /*-----Main-----*/
-.main{
-    background-color: rgb(136, 255, 0);
-}
+
+
+
 /*-----Footer-----*/
 .footer {
     width: 100%;
-    text-align: center;
     padding: 30px;
+    text-align: center;
     background-color: cadetblue;
 }
