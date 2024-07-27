@@ -7,8 +7,9 @@
     box-sizing: border-box;
 }
 
-.body {
+.body{
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /*-----Navigation Bar-----*/
@@ -86,6 +87,82 @@
     border-radius: 10px;
 }
 
+/* -----ABOUT ME----- */
+.about-col{
+    flex-basis: 50%;
+    padding: 100px 125px;
+}
+
+#photo-about {
+    background-image: url(../Images/el-paso-skyline-transformed.webp);
+    padding-top: 650px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 10% bottom 50%;
+}
+
+.main-about{
+    background-color: beige;
+}
+
+.main-about-two{
+    background-color: beige;
+}
+
+.animated-text {
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280 px;
+    background-color: beige;
+}
+
+.animated-text span {
+    position: relative;
+}
+
+.animated-text span::before {
+    content: "Student at UT Austin.";
+    color: #ff7f50;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: beige;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid beige;
+    }
+}
+
+@keyframes words {
+    0%, 20% {
+        content: "Student at UT Austin.";
+    }
+    21%, 40% {
+        content: "Mechanical Engineer.";
+    }
+    41%, 60% {
+        content: "Software Engineer.";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
 
 /*-----Main-----*/
 #photo-1{
