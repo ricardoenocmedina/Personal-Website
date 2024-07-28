@@ -236,9 +236,10 @@
 .main-mech{
     padding-left: 120px;
 }
+
 .mech-col{
-    flex-basis: 40%;
-    padding: 100px 125px;
+    flex-basis: 45%;
+    padding: 120px 125px;
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -250,13 +251,13 @@
 
 .img_wrap {
     position: relative;
-    width: 420px;
-    height: 512px;
+    width: 477px;
+    height: 491px;
 }
 
 #spinner {
-    width: 420px;
-    height: 512px;
+    width: 477px;
+    height: 491px;
 }
 
 .img_descrp {
