@@ -231,6 +231,57 @@
     padding-bottom: 200px;
 }
 
+/* -----MECH E PROJECTS----- */
+
+.main-mech{
+    padding-left: 120px;
+}
+.mech-col{
+    flex-basis: 40%;
+    padding: 100px 125px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.mech-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_wrap {
+    position: relative;
+    width: 420px;
+    height: 512px;
+}
+
+#spinner {
+    width: 420px;
+    height: 512px;
+}
+
+.img_descrp {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsl(0, 0%, 25%,.5);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 15px;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_descrp{
+    visibility: visible;
+    padding-top: 210px;
+    padding-left: 30px;
+    opacity: 1;
+}
+
 /* -----RESUME----- */
 .main-resume {
     padding-top: 55px;
