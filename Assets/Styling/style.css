@@ -322,6 +322,7 @@
     visibility: visible;
     padding-top: 210px;
     padding-left: 30px;
+    padding-right: 30px;
     /* padding-right: 15px; */
     opacity: 1;
 }
