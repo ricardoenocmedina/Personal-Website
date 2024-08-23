@@ -316,15 +316,13 @@
     visibility: hidden;
     opacity: 0;
     border-radius: 15px;
-
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
 }
 
 .img_wrap:hover .img_descrp{
     visibility: visible;
     padding-top: 210px;
     padding-left: 30px;
+    /* padding-right: 15px; */
     opacity: 1;
 }
 
@@ -350,15 +348,13 @@
     visibility: hidden;
     opacity: 0;
     border-radius: 15px;
-
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
 }
 
 .img_wrap_two:hover .img_descrp_two{
     visibility: visible;
-    padding-top: 0px;
-    padding-left: 30px;
+    padding-top: 300px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     opacity: 1;
 }
 
