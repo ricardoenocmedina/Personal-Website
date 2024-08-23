@@ -376,6 +376,36 @@
     flex-wrap: wrap;
 }
 
+.airbnb-image {
+    position: relative;
+    width: 470px;
+    height: 226px;
+}
+
+#air {
+    width: 470px;
+    height: 226px;
+}
+
+.air-image-descrp {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsl(0, 0%, 25%,.5);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.airbnb-image:hover .air-image-descrp{
+    visibility: visible;
+    padding-left: 155px;
+    padding-top: 100px;
+    opacity: 1;
+}
+
 /* -----RESUME----- */
 .main-resume {
     padding-top: 55px;
