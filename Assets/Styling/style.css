@@ -138,7 +138,7 @@
 .animated-text span::before {
     content: "Student at UT Austin.";
     color: #ff7f50;
-    animation: words 20s infinite;
+    animation: words 15s infinite;
 }
 
 .animated-text span::after {
@@ -149,7 +149,7 @@
     background-color: #f5f4e8;
     border-left: 2px solid #ff7f50;
     right: -8px;
-    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+    animation: cursor .8s infinite, typing 15s steps(14) infinite;
 }
 
 @keyframes cursor {
@@ -168,6 +168,13 @@
     41%, 60% {
         content: "Software Engineer.";
     }
+    61%, 80% {
+        content: "Amateur Designer.";
+    }
+    81%, 100% {
+        content: "Curious Learner.";
+    }
+
 }
 
 @keyframes typing {
