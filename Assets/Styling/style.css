@@ -369,6 +369,38 @@
     opacity: 1;
 }
 
+.img_wrap_three{
+    position: relative;
+    width: 442px;
+    height: 600px;
+}
+
+#plantcare{
+    width: 442px;
+    height: 600px;
+}
+
+.img_descrp_three {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsl(0, 0%, 25%,.5);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 15px;
+}
+
+.img_wrap_three:hover .img_descrp_three {
+    visibility: visible;
+    padding-top: 300px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    opacity: 1;
+}
+
 /* -----SOFT PROJ----- */
 .main-soft{
     padding-left: 120px;
